@@ -1,0 +1,75 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height:180px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contenedor{
+    display: flex;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    height: 695px;
+    width: 895px;
+    justify-content: space-around;
+}
+
+.cards{
+    border-radius: 12px;
+    text-align:left;
+    width: 245px;
+    height: 350px;
+    color: white;
+    font-size: 9px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.explore{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.cardtext{
+   padding: 10px;
+   padding-right: 25px;
+  
+}
+
+div.card1{
+    margin-top: 50px;
+    background-color:#020758
+}
+
+div.card2{
+    margin-top: 155px;
+    background-color: #021B1F;
+}
+
+div.card3{
+    margin-top: 275px;
+    background-color: #1F0302 ;
+}
+
+.first{
+    background-color: #2D74FE;
+}
+.second{
+    background-color:  #94FBFA;
+    color: #021B1F;
+}
+
+.third{
+    background-color: #DBFA09;
+    color: #1F0302;
+}
